@@ -1,0 +1,3 @@
+ID,Nama,Nomor Telepon,Kategori
+1,Andi,08123456789,Teman
+2,Budi,08987654321,Keluarga
