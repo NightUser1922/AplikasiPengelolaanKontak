@@ -702,7 +702,16 @@ private boolean validateCSVHeader(String header) {
     }//GEN-LAST:event_btnTambahActionPerformed
 
     private void btnExitActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnExitActionPerformed
-        System.exit(0);         // TODO add your handling code here:
+                int confirm = JOptionPane.showConfirmDialog(
+                    PengelolaanKontakFrame.this,
+                    "Yakin ingin keluar dari aplikasi?",
+                    "Konfirmasi Keluar",
+                    JOptionPane.YES_NO_OPTION
+                );
+                if (confirm == JOptionPane.YES_OPTION) {
+                    System.exit(0);
+                }
+
     }//GEN-LAST:event_btnExitActionPerformed
 
     private void btnEditActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEditActionPerformed
